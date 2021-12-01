@@ -74,6 +74,8 @@ RUN apt install librtde librtde-dev
 RUN apt-get update
 RUN pip install ur-rtde
 
+RUN apt install nlohmann-json-dev
+
 #RUN rosdep init 
 
 # Setting user and the workdir
